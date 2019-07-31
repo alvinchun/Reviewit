@@ -13,6 +13,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'jquery-rails'
+gem 'rubocop', '~> 0.73.0'
+gem 'rufo', '~> 0.7.0'
+gem 'htmlbeautifier'
+
 
 
 # gem 'devise', '~> 3.5', '>= 3.5.6'
