@@ -15,7 +15,7 @@ class PlaysController < ApplicationController
 		@play = Play.new(play_params)
 
 		if @play.save
-			redirect_to root_path
+			redirect_to @play, notice: 'Post was succesfully posted!'
 		else
 			render 'new'
 		end

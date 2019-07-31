@@ -16,6 +16,8 @@ gem 'jquery-rails'
 gem 'rubocop', '~> 0.73.0'
 gem 'rufo', '~> 0.7.0'
 gem 'htmlbeautifier'
+gem 'devise'
+
 
 
 
